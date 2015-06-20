@@ -1,0 +1,11 @@
+prefix=
+exec_prefix=
+libdir=/data/intranet/software/rpconfig/json-c-0.11
+includedir=/data/intranet/software/rpconfig/json-c-0.11
+
+Name: json
+Description: JSON implementation in C
+Version: 0.11
+Requires:
+Libs:  -L/data/intranet/software/rpconfig/json-c-0.11 -ljson-c
+Cflags: -I/data/intranet/software/rpconfig/json-c-0.11
